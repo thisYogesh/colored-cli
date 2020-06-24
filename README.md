@@ -6,19 +6,19 @@ const { log, color, colorType } = require('./index')
 
 const logValue = log
     // Set value
-    .value('Hello ')
+    .value('Hello')
     // Set red color as forground
     .color(colorType.fg, color.red)
 
     // Append value
-    .value('World')
+    .value(' World ')
     // Set blue color as background 
     .color(colorType.bg, color.blue)
 
     // Append value
     .value('!!')
-    // Set cyan color as forground 
-    .color(colorType.fg, color.cyan)
+    // Set yellow color as forground 
+    .color(colorType.fg, color.yellow)
 
     // finally return encoded string!
     .return()
